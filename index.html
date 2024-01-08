@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="node_modules/@shower/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+
+<body class="shower list">
+
+    <header class="caption">
+        <h1>SCRUM</h1>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>SCRUM</h2>
+        <figure>
+            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+            <figcaption class="copyright right white">
+                <a href="https://fiftyfootshadows.net">© John Carey</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Что такое Scrum?</h2>
+        <p>
+            Scrum — это методика гибкого управления проектами, помогающая командам структурировать работу и управлять ею
+            на основе набора ценностей, принципов и практик. Как спортивная команда готовится к решающей игре (к слову,
+            scrum — англ. «схватка», элемент игры в регби), так и команда сотрудников компании должна извлекать уроки из
+            полученного опыта, осваивать принципы самоорганизации, работая над решением проблемы, и анализировать свои
+            успехи и провалы, чтобы постоянно совершенствоваться.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Что такое спринты в управлении проектами?</h2>
+        <p>Спринт — это короткий временной интервал, в течение которого scrum-команда выполняет заданный объем работы.
+            Спринты лежат в основе методологий scrum и agile, и правильный выбор спринтов поможет вашей agile‑команде
+            выпускать более качественное программное обеспечение без лишней головной боли.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Что такое планирование спринта?</h2>
+        <p>Планирование спринта — это событие в scrum, которое знаменует начало спринта. В ходе планирования определяется объем работы на спринт и способы выполнения этой работы. Планирование спринта осуществляется при содействии всей команды scrum.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Кто такой scrum-мастер?</h2>
+        <p>
+            Scrum-мастера — это фасилитаторы Scrum, облегченной методики Agile, ориентированной на итерации с временными рамками, называемые спринтами. В качестве фасилитаторов scrum-мастера выступают в роли тренеров для остальных участников команды или, как это называется в руководстве по Scrum, в качестве лидеров-служителей.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Ценности</h2>
+        <ol>
+            <li>Люди и взаимодействие важнее процессов и инструментов.</li>
+            <li>Работающий продукт важнее исчерпывающей документации.</li>
+            <li>Сотрудничество с клиентом важнее согласования условий контракта.</li>
+            <li>Готовность к изменениям важнее следования плану.</li>
+        </ol>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="node_modules/@shower/core/dist/shower.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+
+</html>
